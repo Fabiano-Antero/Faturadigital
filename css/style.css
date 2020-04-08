@@ -1,0 +1,217 @@
+body {
+  background: url(../img/background.svg);
+  background-color: #E9E9E9;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-sizing: content-box;
+}
+
+.logo {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 43.2mm;
+  height: 53.06px;
+  margin: auto;
+}
+
+.dadoDoUsuario {
+  display: block;
+  margin: auto;
+}
+
+
+
+.base {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5% 13% 0% 13%;
+}
+
+.notfound {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.notfound-title {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  padding-top: 5%;
+  margin: auto;
+}
+
+div {
+  font-family: 'Open Sans SemiBold', sans-serif;
+  color: #707070;
+  font-size: 12px;
+}
+
+div .titulo {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+div .subTitulo {
+  font-family: 'Open Sans Regular', sans-serif;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+div .erro {
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 10px;
+  color: red;
+}
+
+div .tituloConteudo {
+  color: #009FC2;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+div .tituloConteudo2 {
+  color: red;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+div .conteudo {
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
+div .protocolo-t{ 
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+div .tituloConteudoNegado {
+  color: #F37021;
+  margin-bottom: 5%;
+}
+
+
+
+footer {
+  padding: 3%;
+  margin: 0% 9% 0% 10%;
+  text-align: center;
+}
+
+.social {
+  width: 30px;
+  margin-top: -5%;
+}
+
+.gisa {
+  width: 80%;
+}
+
+.gPlay {
+  width: 48%;
+}
+
+.iosPlay {
+  width: 40%;
+}
+
+.separadorIco1 {
+  width: 1px;
+  height: 25px;
+  top: 40%;
+  right: -4%;
+  background-color: rgb(136, 135, 135);
+  position: absolute;
+}
+
+.separadorIco2 {
+  width: 1px;
+  height: 25px;
+  top: 40%;
+  right: 104%;
+  background-color: rgb(136, 135, 135);
+  position: absolute;
+}
+
+.mtPadrao {
+  margin-top: 5%;
+}
+
+.mt {
+  margin-top: 9%;
+}
+
+/*
+
+ NP(Não permitido) ou Permitudo
+*/
+
+
+.check {
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  width: 67px;
+  height: 67px;
+  margin: auto;
+}
+
+.erros {
+  background-image: url(../img/erro.svg);
+  background-repeat: no-repeat;
+  width: 67px;
+  height: 62.42px;
+  margin: auto;
+}
+
+.checkN {
+  background-image: url(../img/negado.svg);
+  background-repeat: no-repeat;
+  width: 67px;
+  height: 67px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 790px) {
+  div {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    color: #707070;
+    font-size: 15px;
+  }
+  .bordaConteudo {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
+    margin: 5% 6% 3% 0%;
+  }
+ 
+  .base {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 5% 0% 0% 0%;
+  }
+  
+  
+  .gPlay {
+    width: 72%;
+    margin-top: 8%;
+  }
+  .iosPlay {
+    width: 73%;
+    margin-top: 8%;
+  }
+  .social {
+    width: 42px;
+    margin-top: 1%;
+  }
+}
